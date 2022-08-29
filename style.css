@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    height: 500px;
+    width: 100%;
+    padding-top: 2%;
+    text-align: center;
+    background-image: url("photo1.jpg");
+    background-size: cover;
+    color: white;
+}
+.myphoto{
+    height: 200px;
+    width: 200px;
+    background-image: url("mypic.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+    margin: auto;
+}
+h2{
+    padding-top: 6%;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:aqua;
+    text-shadow: 0px 0px 10px blue;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.links{
+    margin-top: 7%;
+}
+a{
+    background-color: grey;
+    color: white;
+    padding: 18px 20px 18px 20px;
+    border-radius: 50%;
+    margin: 4px;
+}
+.second{
+    height:280px;
+    width: 1200px;
+    text-align: justify;
+    border-radius: 8px;
+    display: inline-flex;
+    margin: auto;
+    margin-top: 4%;
+    box-shadow: 0px 0px 18px 0px grey;
+}
+.sec{
+    height: 220px;
+    width: 530px;
+    margin: 2%;
+    padding-top: 10px;
+    background-color: white;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+b{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}
+span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.third{
+    height:280px;
+    width: 1200px;
+    text-align: justify;
+    border-radius: 8px;
+    display: inline-flex;
+    margin: auto;
+    margin-top: 4%;
+    box-shadow: 0px 0px 18px 0px green;
+}
+.thrd{
+   height: 220px;
+    width: 530px;
+    margin: 2%;
+    padding-top: 10px;
+    background-color: white; 
+}
+progress{
+    width: 400px;
+    size:5px;
+    color: green;
+    border: 2px solid;
+    border-radius: 20px;
+}
+label{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+}
+.fourth{
+    height:260px;
+    width: 1200px;
+    text-align: justify;
+    border-radius: 8px;
+    display: inline-flex;
+    margin: auto;
+    margin-top: 4%;
+    box-shadow: 0px 0px 18px 0px grey;
+}
+.four{
+   height: 200px;
+    width: 360px;
+    margin: 2%;
+    padding: 8px;
+    padding-top: 10px;
+    border-left: 2px solid green;
+    background-color: white; 
+    
+}
+strong{
+   font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+i{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+}
+.last{
+    height:440px;
+    width: 600px;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border-radius: 8px;
+    display: inline-flex;
+    box-shadow: 0px 0px 18px 0px grey;
+}
+.lst{
+    height: 400px;
+    width: 580px;
+    padding: 8px;
+    padding-top: 10px;
+    margin: 2%;
+    background-color: white; 
+}
+input{
+    padding: 8px;
+    font-size: 16px;
+    outline: none;
+    width: 220px;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+textarea{
+    height: 100px;
+    width: 200px;
+    outline: none;
+    border: 1px solid white;
+    border-bottom-color:grey;
+    color: grey;
+}
+button{
+    background-color: green;
+    padding: 12px;
+    color: white;
+    width: 90px;
+    border: solid;
+    border-radius: 8px;
+}
+body{
+    text-align:center; 
+}
+@media only screen and (max-width:370px){
+   .second{
+   display: block;
+   width: 100%;
+   height: auto;
+   margin: 0px;
+   margin-top: 10%;
+   padding-bottom: 18px;
+   }
+   .sec{
+       height: fit-content;
+       width:290px;
+       text-align: justify;
+   }
+   .third{
+   display: block;
+   width: 100%;
+   height: auto;
+   margin: 0px;
+   margin-top: 10%;
+   padding-bottom: 18px;
+   }
+   .thrd{
+       height: fit-content;
+       width:290px;
+   }
+   .fourth{
+   display: block;
+   width: 100%;
+   height: auto;
+   margin: 0px;
+   margin-top: 10%;
+   padding-bottom: 14px;
+   }
+   .four{
+       height: fit-content;
+       width: 290px;
+   }
+   .four strong{
+       font-size: 13px;
+   }
+   .four i{
+       font-size: 12px;
+   }
+   .last{
+   display: block;
+   width: 100%;
+   height: auto;
+   margin: 0px;
+   margin-top: 10%;
+   }
+   .lst{
+       height: fit-content;
+       width:290px;
+       text-align: center;
+   }
+   progress{
+       width: 270px;
+   }
+   body{
+       margin: 0%;
+       overflow-x:hidden;
+   }
+
+}
